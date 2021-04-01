@@ -20,3 +20,9 @@
   padding: 0 20px;
   margin: auto;
 }
+
+.fAHover:hover,
+.fAHover:focus,
+.fAHover:active {
+  color: #e5d936;
+}
