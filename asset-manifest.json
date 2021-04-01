@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/edMa-ReactSite/static/css/main.c2ff5829.chunk.css",
+    "main.js": "/edMa-ReactSite/static/js/main.a098081d.chunk.js",
+    "main.js.map": "/edMa-ReactSite/static/js/main.a098081d.chunk.js.map",
+    "runtime-main.js": "/edMa-ReactSite/static/js/runtime-main.35c7745a.js",
+    "runtime-main.js.map": "/edMa-ReactSite/static/js/runtime-main.35c7745a.js.map",
+    "static/js/2.3d095d0b.chunk.js": "/edMa-ReactSite/static/js/2.3d095d0b.chunk.js",
+    "static/js/2.3d095d0b.chunk.js.map": "/edMa-ReactSite/static/js/2.3d095d0b.chunk.js.map",
+    "static/js/3.86014d95.chunk.js": "/edMa-ReactSite/static/js/3.86014d95.chunk.js",
+    "static/js/3.86014d95.chunk.js.map": "/edMa-ReactSite/static/js/3.86014d95.chunk.js.map",
+    "index.html": "/edMa-ReactSite/index.html",
+    "static/css/main.c2ff5829.chunk.css.map": "/edMa-ReactSite/static/css/main.c2ff5829.chunk.css.map",
+    "static/js/2.3d095d0b.chunk.js.LICENSE.txt": "/edMa-ReactSite/static/js/2.3d095d0b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35c7745a.js",
+    "static/js/2.3d095d0b.chunk.js",
+    "static/css/main.c2ff5829.chunk.css",
+    "static/js/main.a098081d.chunk.js"
+  ]
+}
