@@ -1,14 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import NavigationItems from "../NavigationItems/NavigationItems";
 
-import Style from './NavBar.module.css';
+import Style from "./NavBar.module.css";
 
-const navBar = (props) => (
-  <header className={Style.NavBar}>
-    <nav className={Style.DeskTopOnly}>
-      <NavigationItems />
-    </nav>
-  </header>
-);
+const NavBar = (props) => {
+  const [scrolling, SetScrolling] = useState(false);
 
-export default navBar;
+  const checkOnScrollHandler = () => {
+    if (window.scrollY < 50) {
+      SetScrolling(false);
+    } else if (window.scrollY > 50) {
+      SetScrolling(true);
+    }
+  };
+  window.addEventListener("scroll", checkOnScrollHandler);
+
+  return (
+    <header
+      className={[Style.NavBar, scrolling ? Style.onScroll : ""].join(" ")}
+    >
+      <nav className={Style.DeskTopOnly}>
+        <NavigationItems />
+      </nav>
+    </header>
+  );
+};
+
+export default NavBar;
