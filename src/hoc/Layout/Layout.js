@@ -1,12 +1,20 @@
 import React from "react";
 
-import NavBar from "../../components/Navigation/NavBar/NavBar";
+import Content from "../../containers/Content/Content";
+
+import Spinner from "../../components/UI/Spinner/Spinner";
+
+import Style from "./Layout.module.css";
+import Footer from "../../containers/Footer/Footer";
 
 const Layout = (props) => {
   return (
     <>
-      <NavBar />
-      <main>{props.children}</main>
+      <div className={Style.Layout}>
+        <Spinner />
+        <Content />
+      </div>
+      <Footer />
     </>
   );
 };
