@@ -1,0 +1,59 @@
+.EmailSignUp h1 {
+  background: -webkit-linear-gradient(#CBB26A, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.EmailSignUp p {
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.EmailSignUp input[type="email"] {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  font-family: "Mulish";
+  text-align: center;
+}
+
+.EmailSignUp input[type="email"]:focus {
+  outline: none;
+  border-bottom: 1px solid #cbb26a;
+}
+
+.EmailSignUp button {
+  font-size: x-large;
+  font-family: inherit;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  margin: 0 20px;
+  background-color: transparent;
+  cursor: pointer;
+ 
+}
+
+.EmailSignUp button:hover,
+.EmailSignUp button:focus {
+  outline: 2px solid #cbb26a;
+  color: #cbb26a;
+}
+
+.EmailSignUp .Form {
+  display: flex;
+  width: min-content;
+  margin: auto;
+}
+
+p.error {
+  font-size: small;
+  color: red;
+  margin: 0px;
+  text-align: center;
+}

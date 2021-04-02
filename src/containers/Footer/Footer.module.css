@@ -1,10 +1,26 @@
 .Footer {
-    color: white;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 10%;
-    right: 10%;
-    padding: 15px;
-    margin-top: 50px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.Footer p {
+  color: white;
+  font-size: medium;
+  word-spacing: 5px;
+}
+
+.Footer a {
+    padding: 0 10px;
+}
+
+.fAHover:hover,
+.fAHover:focus,
+.fAHover:active {
+  color: #e5d936;
 }

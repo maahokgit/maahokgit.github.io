@@ -21,8 +21,8 @@
   margin: auto;
 }
 
-.fAHover:hover,
-.fAHover:focus,
-.fAHover:active {
-  color: #e5d936;
+.Content img {
+  width: 50%;
+  display: flex;
+  margin: auto;
 }

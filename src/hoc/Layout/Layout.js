@@ -2,17 +2,16 @@ import React from "react";
 
 import Content from "../../containers/Content/Content";
 
-import Spinner from "../../components/UI/Spinner/Spinner";
-
 import Style from "./Layout.module.css";
 import Footer from "../../containers/Footer/Footer";
+import MailchimpForm from "../../components/MailchimpForm/MailchimpForm";
 
 const Layout = (props) => {
   return (
     <>
       <div className={Style.Layout}>
-        <Spinner />
         <Content />
+        <MailchimpForm />
       </div>
       <Footer />
     </>
