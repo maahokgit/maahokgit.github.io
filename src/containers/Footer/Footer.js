@@ -6,9 +6,10 @@ import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import Style from './Footer.module.css';
 
-const Footer = (props) => (
+const Footer = () => (
   <footer className={Style.Footer}>
-    <p><FontAwesomeIcon icon={faCopyright} color='white'/> Copyright {new Date().getFullYear()} Edward Ma <a
+    <p><FontAwesomeIcon icon={faCopyright} color='white'/> Copyright {new Date().getFullYear()} Edward Ma </p> 
+    <p><a
           href="https://www.linkedin.com/in/maahokgit"
           target="_blank"
           rel="noreferrer"
@@ -30,7 +31,7 @@ const Footer = (props) => (
             color="white"
             className={Style.fAHover}
           />
-        </a></p> 
+        </a></p>
   </footer>
 );
 

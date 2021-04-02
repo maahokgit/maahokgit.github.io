@@ -6,23 +6,8 @@
   text-align: center;
 }
 
-.Content ul {
-  margin: auto;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  width: min-content;
-  flex-flow: row;
-}
-
-.Content li {
-  padding: 0 20px;
-  margin: auto;
-}
-
 .Content img {
-  width: 50%;
+  width: 30%;
   display: flex;
   margin: auto;
 }
