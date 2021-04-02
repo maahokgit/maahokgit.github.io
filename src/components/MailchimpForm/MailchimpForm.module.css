@@ -9,11 +9,13 @@
   color: white;
   font-weight: bold;
   font-size: larger;
+  text-align: center;
 }
 
 .EmailSignUp input[type="email"] {
   border: none;
   background-color: transparent;
+  border-bottom: 1px solid #cbb26a;
   color: white;
   font-weight: bold;
   font-size: x-large;
@@ -23,7 +25,7 @@
 
 .EmailSignUp input[type="email"]:focus {
   outline: none;
-  border-bottom: 1px solid #cbb26a;
+  border-bottom: 1px solid #ffffff;
 }
 
 .EmailSignUp button {
@@ -34,15 +36,16 @@
   color: white;
   padding: 10px;
   text-decoration: none;
-  margin: 0 20px;
+  margin: 0px 0 0 40px;
   background-color: transparent;
+  border-bottom: 1px solid #ffffff;
   cursor: pointer;
- 
 }
 
 .EmailSignUp button:hover,
 .EmailSignUp button:focus {
   outline: 2px solid #cbb26a;
+  border: none;
   color: #cbb26a;
 }
 
@@ -58,3 +61,14 @@ p.error {
   margin: 0px;
   text-align: center;
 }
+
+@media only screen and (max-width: 499px){
+  .EmailSignUp .Form {
+    flex-flow: column;
+  }
+
+  .EmailSignUp button {
+    margin: 0px;
+  }
+}
+  
