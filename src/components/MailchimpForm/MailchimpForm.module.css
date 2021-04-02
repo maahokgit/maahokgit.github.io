@@ -1,6 +1,7 @@
 .EmailSignUp h1 {
   background: -webkit-linear-gradient(#CBB26A, #fff);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
