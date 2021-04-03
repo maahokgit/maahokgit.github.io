@@ -1,8 +1,10 @@
+.FontAwesomeIcon, .NavigationItems {
+  display: flex;
+  padding: 0;
+}
 .NavigationItems {
   margin: 0;
-  padding: 0;
   list-style: none;
-  display: flex;
   align-items: center;
   height: 100%;
   flex-flow: row;
@@ -10,26 +12,47 @@
 
 li {
   padding: 0 20px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 li.Items {
   font-family: "Mulish";
   font-weight: 800;
   font-size: 20px;
-  display: flex;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
   width: 100px;
 }
 
+.FontAwesomeIcon li svg:hover {
+  color: #cbb26a;
+}
+
 li.Items:hover {
-  font-weight: 500;
-  /* background-color: #8f5c2c; */
-  border-bottom: 4px solid #cbb26a;
   color: white;
 }
 
-.fontUpload:hover {
-  color: #e5d936;
+@media (max-width: 801px) {
+  .NavigationItems {
+    flex-flow: column;
+  }
+
+  .FontAwesomeIcon, li.Items {
+    padding: 10px;
+  }
+
+  .FontAwesomeIcon {
+    font-size: xx-large;
+  }
+
+  .FontAwesomeIcon li {
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  li.Items {
+    font-size: 40px;
+    width: 100%;
+  }
 }

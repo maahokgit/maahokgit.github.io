@@ -4,9 +4,9 @@ import Layout from './hoc/Layout/Layout';
 
 const App = () => {
   return (
-    <React.Fragment>
+    <>
       <Layout/>
-    </React.Fragment>
+    </>
   );
 }
 

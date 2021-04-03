@@ -8,22 +8,14 @@ const navigationItems = (props) => (
     <li className={Style.Items}>Work</li>
     <li className={Style.Items}>About</li>
     <li className={Style.Items}>Contact</li>
-    <li>
-      <FontAwesomeIcon
-        icon={faLinkedinIn}
-        size="lg"
-        color="white"
-        className={Style.fontUpload}
-      />
-    </li>
-    <li>
-      <FontAwesomeIcon
-        icon={faGithub}
-        size="lg"
-        color="white"
-        className={Style.fontUpload}
-      />
-    </li>
+    <ul className={Style.FontAwesomeIcon}>
+      <li>
+        <FontAwesomeIcon icon={faLinkedinIn} size="lg" color="white" />
+      </li>
+      <li>
+        <FontAwesomeIcon icon={faGithub} size="lg" color="white" />
+      </li>
+    </ul>
   </ul>
 );
 

@@ -1,0 +1,19 @@
+.Home {
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+.Home p {
+  color: #e5d936;
+  text-decoration: none;
+  font-family: "Josefin Sans";
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+@media (max-width: 801px) {
+  .Home p {
+    font-size: xxx-large;
+    text-align: center;
+  }
+}
