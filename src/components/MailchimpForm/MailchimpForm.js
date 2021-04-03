@@ -10,7 +10,6 @@ const CustomForm = ({ status, message, onValidated }) => {
       EMAIL: email.value,
     });
 
-  console.log("[status] " + status);
   const thankYouDiv = <h1>Thank you!</h1>;
   const signUpDiv = (
     <>

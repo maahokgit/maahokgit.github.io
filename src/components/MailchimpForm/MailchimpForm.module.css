@@ -1,5 +1,9 @@
+.EmailSignUp {
+  margin-top: 50px;
+}
+
 .EmailSignUp h1 {
-  background: -webkit-linear-gradient(#CBB26A, #fff);
+  background: -webkit-linear-gradient(#cbb26a, #fff);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -62,7 +66,7 @@ p.error {
   text-align: center;
 }
 
-@media only screen and (max-width: 499px){
+@media only screen and (max-width: 499px) {
   .EmailSignUp .Form {
     flex-flow: column;
   }
@@ -71,4 +75,3 @@ p.error {
     margin: 0px;
   }
 }
-  

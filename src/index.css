@@ -1,13 +1,16 @@
+
 body {
-  margin: 0;
-  font-family: 'Mulish';
+  margin: 0;  font-family: "Mulish";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
+  padding: 0;
+  height: 100%;
 }
 
+
 #root {
-  height: 100%;
-  max-width: 1280px;
-  margin: auto;
+  max-width: 1440px;
+  min-width: fit-content;
+  margin: 0 auto;
 }
