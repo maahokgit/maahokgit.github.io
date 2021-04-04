@@ -1,6 +1,6 @@
 import emailjs from "emailjs-com";
 import { useEffect, useState } from "react";
-
+import Slide from "@material-ui/core/Slide";
 import funko_avi from "../../../assets/img/funko_avi2.png";
 import Style from "./ContactPage.module.css";
 
@@ -64,22 +64,24 @@ const ContactPage = () => {
     </>
   );
   return (
-    <div className={Style.ContactPage}>
-      <div className={Style.formContainer}>
-        <form className={Style.ContactForm} onSubmit={sendEmail}>
-          <h1>Let's Chat. Drop me a line!</h1>
-          {formSuccess ? (
-            <h3>
-              Message Sent! Thank you! <br /> <br />I will get back to you as soon as I see
-              it!
-            </h3>
-          ) : (
-            formInput
-          )}
-        </form>
-        <img src={funko_avi} alt="funko avi" />
+    <Slide direction="up" in={true} mountOnEnter unmountOnExit>
+      <div className={Style.ContactPage}>
+        <div className={Style.formContainer}>
+          <form className={Style.ContactForm} onSubmit={sendEmail}>
+            <h1>Let's Chat. Drop me a line!</h1>
+            {formSuccess ? (
+              <h3>
+                Message Sent! Thank you! <br /> <br />I will get back to you as
+                soon as I see it!
+              </h3>
+            ) : (
+              formInput
+            )}
+          </form>
+          <img src={funko_avi} alt="funko avi" />
+        </div>
       </div>
-    </div>
+    </Slide>
   );
 };
 
