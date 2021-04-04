@@ -1,19 +1,29 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 
+import NavigationItem from "./NavigationItem/NavigationItem";
+
 import Style from "./NavigationItems.module.css";
 
 const navigationItems = (props) => (
   <ul className={Style.NavigationItems}>
-    <li className={Style.Items}>Work</li>
-    <li className={Style.Items}>About</li>
-    <li className={Style.Items}>Contact</li>
+    <NavigationItem link="/work">Work</NavigationItem>
+    <NavigationItem link="/about">About</NavigationItem>
+    <NavigationItem link="/contact">Contact</NavigationItem>
     <ul className={Style.FontAwesomeIcon}>
       <li>
-        <FontAwesomeIcon icon={faLinkedinIn} size="lg" color="white" />
+        <a
+          href="https://www.linkedin.com/in/maahokgit"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faLinkedinIn} size="lg" color="white" />
+        </a>
       </li>
       <li>
-        <FontAwesomeIcon icon={faGithub} size="lg" color="white" />
+        <a href="https://github.com/maahokgit" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faGithub} size="lg" color="white" />
+        </a>
       </li>
     </ul>
   </ul>

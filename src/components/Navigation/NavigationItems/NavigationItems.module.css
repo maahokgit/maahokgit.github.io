@@ -10,31 +10,13 @@
   flex-flow: row;
 }
 
-li {
-  padding: 0 20px;
-  display: flex;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
-li.Items {
-  font-family: "Mulish";
-  font-weight: 800;
-  font-size: 20px;
-  width: 100px;
-}
-
 .FontAwesomeIcon li svg:hover {
   color: #cbb26a;
 }
 
-li.Items:hover {
-  color: white;
-}
-
 @media (max-width: 801px) {
   .NavigationItems {
+    margin-top: 50px;
     flex-flow: column;
   }
 
@@ -43,16 +25,12 @@ li.Items:hover {
   }
 
   .FontAwesomeIcon {
+    margin-top: 50px;
     font-size: xx-large;
   }
 
   .FontAwesomeIcon li {
     margin-top: 10px;
     padding-bottom: 10px;
-  }
-
-  li.Items {
-    font-size: xx-large;
-    width: 100%;
   }
 }

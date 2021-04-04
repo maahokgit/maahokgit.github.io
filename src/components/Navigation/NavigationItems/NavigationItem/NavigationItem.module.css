@@ -1,0 +1,37 @@
+li {
+  padding: 0 20px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+li.Items a {
+  font-family: "Mulish";
+  font-weight: 800;
+  font-size: 20px;
+  width: 100px;
+  color: #cbb26a;
+}
+
+li.Items a {
+  text-decoration: none;
+}
+
+li.Items a:hover,
+li.Items a.active,
+li.Items a:active {
+  color: white;
+}
+
+@media (max-width: 801px) {
+  li.Items {
+    padding: 10px;
+  }
+  
+  li.Items a {
+    font-size: xx-large;
+    text-align: center;
+    width: 100%;
+  }
+}

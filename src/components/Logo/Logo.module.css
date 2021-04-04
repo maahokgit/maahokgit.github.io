@@ -3,7 +3,7 @@
   padding-top: 5px;
 }
 
-.Home p {
+.Home a {
   color: #e5d936;
   text-decoration: none;
   font-family: "Josefin Sans";
@@ -12,7 +12,7 @@
 }
 
 @media (max-width: 801px) {
-  .Home p {
+  .Home {
     text-align: center;
   }
 }
