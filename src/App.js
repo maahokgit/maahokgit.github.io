@@ -3,19 +3,20 @@ import { Redirect, Route, Switch, withRouter } from "react-router";
 
 import Layout from "./hoc/Layout/Layout";
 import Spinner from "./components/UI/Spinner/Spinner";
-import LandingPage from "./containers/LandingPage/LandingPage";
+import LandingPage from "./containers/content/LandingPage/LandingPage";
 
 const AboutPage = React.lazy(() => {
-  return import("./containers/AboutPage/AboutPage");
+  return import("./containers/content/AboutPage/AboutPage");
 });
 
 const ContactPage = React.lazy(() => {
-  return import("./containers/ContactPage/ContactPage");
+  return import("./containers/content/ContactPage/ContactPage");
 });
 
 const WorkPage = React.lazy(() => {
-  return import("./containers/WorkPage/WorkPage");
+  return import("./containers/content/WorkPage/WorkPage");
 });
+
 const App = () => {
   const routes = (
     <Switch>

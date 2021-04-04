@@ -1,7 +1,12 @@
 body {
   margin: 0;
-  font-family:'Josefin Sans', 'Mulish', sans-serif;
+  font-family: "Josefin Sans", "Mulish", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
+}
+
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
 }
