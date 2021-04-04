@@ -1,3 +1,15 @@
-const aboutPage = () => <h1>About Page</h1>;
+import { useEffect } from "react";
 
-export default aboutPage;
+const AboutPage = () => {
+
+    useEffect(() =>{
+        console.log('[useEffect] - /about')
+        document.title = 'About Me - Edward Ma'
+    }, [])
+    return (
+      <h1>About Page</h1>  
+    )
+}
+;
+
+export default AboutPage;

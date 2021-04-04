@@ -1,3 +1,13 @@
-const landingPage = () => <h1>Landing Page</h1>;
+import { useEffect } from "react";
 
-export default landingPage;
+const LandingPage = () => {
+    useEffect(() => {
+        console.log("[useEffect] - /");
+        document.title = "Edward Ma";
+      }, []);
+    return (
+        <h1>Landing Page</h1>
+    )
+};
+
+export default LandingPage;
