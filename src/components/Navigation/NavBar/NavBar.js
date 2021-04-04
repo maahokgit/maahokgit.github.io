@@ -5,19 +5,7 @@ import SideBarDrawer from "../SideBar/SideBarDrawer/SideBarDrawer";
 
 import Style from "./NavBar.module.css";
 
-const NavBar = (props) => {
-  // const [scrolling, SetScrolling] = useState(false);
-
-  // const checkOnScrollHandler = () => {
-  //   if (window.scrollY < 50) {
-  //     SetScrolling(false);
-  //   } else if (window.scrollY > 50) {
-  //     SetScrolling(true);
-  //   }
-  // };
-  // window.addEventListener("scroll", checkOnScrollHandler);
-
-  return (
+const NavBar = (props) => (
     <header
       className={Style.NavBar}
     >
@@ -28,6 +16,5 @@ const NavBar = (props) => {
       <SideBarDrawer clicked={props.sideBarToggleClicked}/>
     </header>
   );
-};
 
 export default NavBar;

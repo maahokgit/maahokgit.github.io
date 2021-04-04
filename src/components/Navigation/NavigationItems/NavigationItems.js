@@ -5,9 +5,9 @@ import NavigationItem from "./NavigationItem/NavigationItem";
 
 import Style from "./NavigationItems.module.css";
 
-const navigationItems = (props) => (
+const navigationItems = () => (
   <ul className={Style.NavigationItems}>
-    <NavigationItem link="/work">Work</NavigationItem>
+    <NavigationItem link="/experience">Experience</NavigationItem>
     <NavigationItem link="/about">About</NavigationItem>
     <NavigationItem link="/contact">Contact</NavigationItem>
     <ul className={Style.FontAwesomeIcon}>

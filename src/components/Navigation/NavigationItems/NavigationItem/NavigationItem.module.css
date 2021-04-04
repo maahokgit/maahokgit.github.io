@@ -12,10 +12,8 @@ li.Items a {
   font-size: 20px;
   width: 100px;
   color: #cbb26a;
-}
-
-li.Items a {
   text-decoration: none;
+  text-align: center;
 }
 
 li.Items a:hover,
@@ -28,7 +26,7 @@ li.Items a:active {
   li.Items {
     padding: 10px;
   }
-  
+
   li.Items a {
     font-size: xx-large;
     text-align: center;

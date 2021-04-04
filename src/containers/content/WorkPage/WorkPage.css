@@ -1,0 +1,49 @@
+.container {
+  max-width: 1400px;
+  padding: 0;
+}
+
+.row {
+  color: black;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.row h1 {
+  color: white;
+}
+
+.card-subtitle {
+  padding: 5px 0;
+}
+
+.card {
+  background-color: #e5d9b6;
+  /* box-shadow: 10px -10px #be9e44; */
+  border: 5px solid #be9e44;
+  width: 90%;
+}
+
+.card-text li {
+  align-items: unset;
+  justify-content: unset;
+}
+
+.card-text ul {
+  padding-left: 0;
+}
+.card-text li::before {
+  content: "\2022";
+  padding-right: 10px;
+}
+
+.col-lg-8 {
+  padding-right: 0;
+}
+
+@media (max-width: 991px) {
+  .col-lg-4 h1 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}

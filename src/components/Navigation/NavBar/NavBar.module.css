@@ -1,10 +1,16 @@
-.NavBar{
+.NavBar {
   height: 70px;
   padding: 20px;
   color: #cbb26a;
   margin: 0 auto 20px auto;
   display: flex;
   align-items: center;
+  max-width: 1400px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: black;
 }
 
 .NavBar nav {
@@ -20,8 +26,11 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cbb26a",endColorstr="#000000",GradientType=1);
 } */
 
+.onScroll {
+  background-color: white;
+}
 @media (max-width: 800px) {
   .DeskTopOnly {
-      display: none;
+    display: none;
   }
 }

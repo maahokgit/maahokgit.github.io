@@ -20,7 +20,7 @@ const WorkPage = React.lazy(() => {
 const App = () => {
   const routes = (
     <Switch>
-      <Route path="/work" render={(props) => <WorkPage {...props} />} />
+      <Route path="/experience" render={(props) => <WorkPage {...props} />} />
       <Route path="/about" render={(props) => <AboutPage {...props} />} />
       <Route path="/contact" render={(props) => <ContactPage {...props} />} />
       <Route exact path="/" component={LandingPage} />
