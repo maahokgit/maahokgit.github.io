@@ -29,8 +29,13 @@
 .onScroll {
   background-color: white;
 }
+
 @media (max-width: 800px) {
   .DeskTopOnly {
     display: none;
+  }
+
+  .NavBar {
+    position: static;
   }
 }

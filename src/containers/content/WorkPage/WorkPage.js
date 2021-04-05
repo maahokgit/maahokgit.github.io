@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Slide from "@material-ui/core/Slide";
 import "./WorkPage.css";
+import { Link } from "react-router-dom";
 
 const WorkPage = () => {
   useEffect(() => {
@@ -217,6 +218,7 @@ const WorkPage = () => {
             </Row>
           </Col>
         </Row>
+            <h3>Like what you see? <Link to='/contact'>Let's Chat!</Link></h3>
       </Container>
     </Slide>
   );

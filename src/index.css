@@ -19,3 +19,13 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+a {
+  color: #cbb26a;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+  color: white;
+  text-decoration: none;
+}

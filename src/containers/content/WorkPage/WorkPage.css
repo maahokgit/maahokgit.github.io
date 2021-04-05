@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.container h3 {
+  text-align: center;
+  color: white;
+}
 .row {
   color: black;
   margin-bottom: 25px;
@@ -37,6 +41,9 @@
   padding-right: 10px;
 }
 
+.card a {
+  color: #007bff;
+}
 .col-lg-8 {
   padding-right: 0;
 }
@@ -45,5 +52,12 @@
   .col-lg-4 h1 {
     text-align: center;
     margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .row {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
