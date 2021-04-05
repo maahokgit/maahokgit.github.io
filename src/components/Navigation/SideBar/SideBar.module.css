@@ -11,6 +11,12 @@
   transition: transform 0.3s ease-out;
   color: #cbb26a;
   overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.SideBar::-webkit-scrollbar {
+  display: none;
 }
 
 .Open {

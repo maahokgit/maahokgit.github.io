@@ -1,6 +1,10 @@
 .Home {
   text-transform: uppercase;
   padding-top: 5px;
+  background: -webkit-linear-gradient(#e5d936, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .Home a {

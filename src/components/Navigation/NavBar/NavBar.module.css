@@ -1,8 +1,8 @@
 .NavBar {
   height: 70px;
-  padding: 20px;
+  padding: 40px 20px 20px 20px;
   color: #cbb26a;
-  margin: 0 auto 20px auto;
+  margin: 20px auto;
   display: flex;
   align-items: center;
   max-width: 1400px;
@@ -18,14 +18,6 @@
   margin: auto 0 auto auto;
 }
 
-/* .onScroll {
-  background: rgb(203,178,106);
-  background: -moz-linear-gradient(90deg, rgba(203,178,106,1) 20%, rgba(229,217,54,1) 50%, rgba(0,0,0,1) 75%);
-  background: -webkit-linear-gradient(90deg, rgba(203,178,106,1) 20%, rgba(229,217,54,1) 50%, rgba(0,0,0,1) 75%);
-  background: linear-gradient(90deg, rgba(203,178,106,1) 20%, rgba(229,217,54,1) 50%, rgba(0,0,0,1) 75%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cbb26a",endColorstr="#000000",GradientType=1);
-} */
-
 .onScroll {
   background-color: white;
 }
@@ -37,5 +29,6 @@
 
   .NavBar {
     position: static;
+    padding: 20px;
   }
 }

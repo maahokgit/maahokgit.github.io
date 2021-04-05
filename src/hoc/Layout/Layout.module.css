@@ -2,11 +2,11 @@
     color: white;
     padding: 20px;
     max-width: 1400px;
-    margin: 70px auto 0 auto;
+    margin: 150px auto 0 auto;
 }
 
 @media (max-width: 800px) {
     .Layout main {
-        margin-top: 20px;
+        margin-top: 70px;
     }
 }
