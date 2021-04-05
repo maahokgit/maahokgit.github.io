@@ -48,6 +48,13 @@
   padding-right: 0;
 }
 
+.accordion {
+  width: 100%;
+}
+
+.accordion>.card{
+  margin: auto;
+}
 @media (max-width: 991px) {
   .col-lg-4 h1 {
     text-align: center;
