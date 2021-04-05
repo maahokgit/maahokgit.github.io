@@ -1,8 +1,7 @@
 .NavBar {
   height: 70px;
-  padding: 40px 20px 20px 20px;
+  padding: 40px 20px;
   color: #cbb26a;
-  margin: 20px auto;
   display: flex;
   align-items: center;
   max-width: 1400px;
