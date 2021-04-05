@@ -2,7 +2,7 @@
   "files": {
     "static/js/0.3a54d593.chunk.js": "/static/js/0.3a54d593.chunk.js",
     "static/js/0.3a54d593.chunk.js.map": "/static/js/0.3a54d593.chunk.js.map",
-    "main.css": "/static/css/main.cc9d62ee.chunk.css",
+    "main.css": "/static/css/main.52f6f7ef.chunk.css",
     "main.js": "/static/js/main.db703b73.chunk.js",
     "main.js.map": "/static/js/main.db703b73.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.88817b68.js",
@@ -22,7 +22,7 @@
     "index.html": "/index.html",
     "static/css/4.6cf9fb1b.chunk.css.map": "/static/css/4.6cf9fb1b.chunk.css.map",
     "static/css/5.86951572.chunk.css.map": "/static/css/5.86951572.chunk.css.map",
-    "static/css/main.cc9d62ee.chunk.css.map": "/static/css/main.cc9d62ee.chunk.css.map",
+    "static/css/main.52f6f7ef.chunk.css.map": "/static/css/main.52f6f7ef.chunk.css.map",
     "static/js/3.ee99fc07.chunk.js.LICENSE.txt": "/static/js/3.ee99fc07.chunk.js.LICENSE.txt",
     "static/js/5.3761a164.chunk.js.LICENSE.txt": "/static/js/5.3761a164.chunk.js.LICENSE.txt",
     "static/media/funko_avi2.7ad516b3.png": "/static/media/funko_avi2.7ad516b3.png"
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.88817b68.js",
     "static/js/3.ee99fc07.chunk.js",
-    "static/css/main.cc9d62ee.chunk.css",
+    "static/css/main.52f6f7ef.chunk.css",
     "static/js/main.db703b73.chunk.js"
   ]
 }
