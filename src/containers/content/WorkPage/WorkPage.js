@@ -249,7 +249,6 @@ const WorkPage = () => {
             </Accordion>
           </Col>
         </Row>
-
       </Container>
     </Slide>
   );
