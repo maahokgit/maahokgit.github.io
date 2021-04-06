@@ -1,2 +1,0 @@
-(this["webpackJsonpedma-website"]=this["webpackJsonpedma-website"]||[]).push([[7],{74:function(e,t,c){"use strict";c.r(t);var s=c(1),u=c(0);t.default=function(){return Object(s.useEffect)((function(){console.log("[useEffect] - /about"),document.title="About Me - Edward Ma"}),[]),Object(u.jsx)("h1",{children:"About Page"})}}}]);
-//# sourceMappingURL=7.a13b5170.chunk.js.map
