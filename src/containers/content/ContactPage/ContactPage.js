@@ -64,9 +64,9 @@ const ContactPage = () => {
     </>
   );
   return (
-    <Slide direction="up" in={true} mountOnEnter unmountOnExit>
-      <div className={Style.ContactPage}>
-        <div className={Style.formContainer}>
+    <div className={Style.ContactPage}>
+      <div className={Style.formContainer}>
+        <Slide direction="right" in={true} mountOnEnter unmountOnExit>
           <form className={Style.ContactForm} onSubmit={sendEmail}>
             <h1>Let's Chat. Drop me a line!</h1>
             {formSuccess ? (
@@ -78,10 +78,12 @@ const ContactPage = () => {
               formInput
             )}
           </form>
+        </Slide>
+        <Slide direction="left" in={true} mountOnEnter unmountOnExit>
           <img src={funko_avi} alt="funko avi" />
-        </div>
+        </Slide>
       </div>
-    </Slide>
+    </div>
   );
 };
 

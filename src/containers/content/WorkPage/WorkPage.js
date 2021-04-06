@@ -15,7 +15,7 @@ const WorkPage = () => {
       <Container>
         <Row>
           <Col lg={4}>
-            <h1>Work Experience</h1>
+            <h1>Experience</h1>
           </Col>
           <Col lg={8}>
             <Accordion>
