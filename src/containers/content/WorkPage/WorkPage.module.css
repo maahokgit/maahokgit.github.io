@@ -1,69 +1,68 @@
-.container {
+.Container {
   max-width: 1400px;
   padding: 0;
 }
 
-.container h3 {
+.Container h3 {
   text-align: center;
   color: white;
 }
-.row {
+.Row {
   color: black;
   margin-bottom: 25px;
   justify-content: center;
 }
 
-.row h1 {
+.Row h1 {
   color: white;
 }
 
-.card-subtitle {
+.CardSubtitle {
   padding: 5px 0;
 }
 
-.card {
+.Card {
   background-color: #e5d9b6;
-  /* box-shadow: 10px -10px #be9e44; */
   border: 5px solid #be9e44;
   width: 90%;
 }
 
-.card-text li {
+.CardText li {
   align-items: unset;
   justify-content: unset;
 }
 
-.card-text ul {
+.CardText ul {
   padding-left: 0;
 }
-.card-text li::before {
+.CardText li::before {
   content: "\2022";
   padding-right: 10px;
 }
 
-.card a {
+.Card a {
   color: #007bff;
 }
-.col-lg-8 {
+.collg8 {
   padding-right: 0;
 }
 
-.accordion {
+.Accordion {
   width: 100%;
 }
 
-.accordion>.card{
+.Accordion>.card{
   margin: auto;
 }
 @media (max-width: 991px) {
-  .col-lg-4 h1 {
+  .collg4 h1 {
     text-align: center;
     margin-bottom: 25px;
   }
 }
 
 @media (max-width: 800px) {
-  .row {
+  .Row {
     margin-right: 0;
     margin-left: 0;
   }

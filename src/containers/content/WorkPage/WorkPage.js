@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Container, Row, Col, Card, Accordion } from "react-bootstrap";
 import Slide from "@material-ui/core/Slide";
-import "./WorkPage.css";
+import Style from "./WorkPage.module.css";
 import { Link } from "react-router-dom";
 
 const WorkPage = () => {
@@ -12,29 +12,29 @@ const WorkPage = () => {
 
   return (
     <Slide direction="up" in={true} mountOnEnter unmountOnExit>
-      <Container>
-        <Row>
-          <Col lg={4}>
+      <Container className={Style.Container}>
+        <Row className={Style.Row}>
+          <Col lg={4} className={Style.collg4}>
             <h1>Experience</h1>
           </Col>
-          <Col lg={8}>
-            <Accordion>
-              <Row>
-                <Card>
+          <Col lg={8} className={Style.collg8}>
+            <Accordion className={Style.Accordion}>
+              <Row className={Style.Row}>
+                <Card className={Style.Card}>
                   <Card.Body>
                     <Card.Title>Co-Founder & CTO</Card.Title>
-                    <Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>
                       <Card.Link href="https://Bursity.org" target="_blank">
                         Bursity.org
                       </Card.Link>{" "}
                       - Halifax, Nova Scotia
                     </Card.Subtitle>
-                    <Card.Subtitle>August 2018 - Present</Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>August 2018 - Present</Card.Subtitle>
                     <Accordion.Toggle as={Link} eventKey="0">
                       Details
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
-                      <Card.Text>
+                      <Card.Text className={Style.CardText}>
                         <ul>
                           <li>
                             Co-developing in the creation of System Analysis and
@@ -70,22 +70,22 @@ const WorkPage = () => {
                   </Card.Body>
                 </Card>
               </Row>
-              <Row>
-                <Card>
+              <Row className={Style.Row}>
+                <Card className={Style.Card}>
                   <Card.Body>
                     <Card.Title>Software Developer</Card.Title>
-                    <Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>
                       <Card.Link href="https://www.vmo.aero/" target="_blank">
                         VMO Solution
                       </Card.Link>{" "}
                       - Halifax, Nova Scotia
                     </Card.Subtitle>
-                    <Card.Subtitle>Nov 2019 - Jan 2020</Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>Nov 2019 - Jan 2020</Card.Subtitle>
                     <Accordion.Toggle as={Link} eventKey="1">
                       Details
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
-                      <Card.Text>
+                      <Card.Text className={Style.CardText}>
                         <ul>
                           <li>
                             Built RESTful API within React to connect to MongoDB
@@ -101,11 +101,11 @@ const WorkPage = () => {
                   </Card.Body>
                 </Card>
               </Row>
-              <Row>
-                <Card>
+              <Row className={Style.Row}>
+                <Card className={Style.Card}>
                   <Card.Body>
                     <Card.Title>Analytic Developer</Card.Title>
-                    <Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>
                       <Card.Link
                         href="https://www.verbinteractive.com/"
                         target="_blank"
@@ -114,12 +114,12 @@ const WorkPage = () => {
                       </Card.Link>{" "}
                       - Halifax, Nova Scotia
                     </Card.Subtitle>
-                    <Card.Subtitle>Mar 2019 - Jul 2020</Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>Mar 2019 - Jul 2020</Card.Subtitle>
                     <Accordion.Toggle as={Link} eventKey="2">
                       Details
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="2">
-                      <Card.Text>
+                      <Card.Text className={Style.CardText}>
                         <ul>
                           <li>
                             Set up full analytics tracking (Page Data,
@@ -154,22 +154,22 @@ const WorkPage = () => {
                   </Card.Body>
                 </Card>
               </Row>
-              <Row>
-                <Card>
+              <Row className={Style.Row}>
+                <Card className={Style.Card}>
                   <Card.Body>
                     <Card.Title>Application Developer</Card.Title>
-                    <Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>
                       <Card.Link href="https://getguild.co/" target="_blank">
                         Guild Software Inc.
                       </Card.Link>{" "}
                       - Bedford, Nova Scotia
                     </Card.Subtitle>
-                    <Card.Subtitle>Jun 2018 - Mar 2019</Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>Jun 2018 - Mar 2019</Card.Subtitle>
                     <Accordion.Toggle as={Link} eventKey="3">
                       Details
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="3">
-                      <Card.Text>
+                      <Card.Text className={Style.CardText}>
                         <ul>
                           <li>
                             Utilized MySQL Stored Procedures for ETL and Data
@@ -201,22 +201,22 @@ const WorkPage = () => {
                   </Card.Body>
                 </Card>
               </Row>
-              <Row>
-                <Card>
+              <Row className={Style.Row}>
+                <Card className={Style.Card}>
                   <Card.Body>
                     <Card.Title>Business Analyst Intern</Card.Title>
-                    <Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>
                       <Card.Link href="https://novascotia.ca/" target="_blank">
                         Government of Nova Scotia
                       </Card.Link>{" "}
                       - Halifax, Nova Scotia
                     </Card.Subtitle>
-                    <Card.Subtitle>May 2017 - Aug 2017</Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>May 2017 - Aug 2017</Card.Subtitle>
                     <Accordion.Toggle as={Link} eventKey="4">
                       Details
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="4">
-                      <Card.Text>
+                      <Card.Text className={Style.CardText}>
                         <ul>
                           <li>
                             Collaborated with a Sr. Business Analyst and

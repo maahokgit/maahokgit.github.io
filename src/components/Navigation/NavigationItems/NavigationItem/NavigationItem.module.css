@@ -25,6 +25,7 @@ li.Items a:active {
 @media (max-width: 801px) {
   li.Items {
     padding: 10px;
+    width: 100%;
   }
 
   li.Items a {
