@@ -28,11 +28,16 @@
 .row {
   color: white;
 }
+
+.Picture {
+  padding-left: 0;
+}
+
 @media (max-width: 991px) {
   .AboutMe {
     margin-top: 50px;
   }
-  .Picture{
+  .Picture {
     text-align: center;
   }
 }

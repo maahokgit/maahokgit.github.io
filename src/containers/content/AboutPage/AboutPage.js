@@ -26,7 +26,7 @@ const AboutPage = () => {
         <Slide direction="up" in={true} mountOnEnter unmountOnExit>
           <Col lg={8} className={Style.AboutMe}>
             <h2>
-              My name is Edward, a web and database developer based out of
+              I'm Edward, a web and database developer based out of
               beautiful Nova Scotia, Canada, and the Co-Founder & CTO of{" "}
               <a href="https://Bursity.org" target="_blank" rel="noreferrer">
                 Bursity.org

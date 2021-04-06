@@ -249,9 +249,7 @@ const WorkPage = () => {
             </Accordion>
           </Col>
         </Row>
-        <h3>
-          Like what you see? <Link to="/contact">Let's Chat!</Link>
-        </h3>
+
       </Container>
     </Slide>
   );

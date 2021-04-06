@@ -25,7 +25,18 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   color: white;
   text-decoration: none;
+}
+
+p {
+  font-family: "Mulish";
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
 }
