@@ -6,9 +6,6 @@
 .selfie {
   width: 100%;
   max-width: 400px;
-  box-shadow: 0px 0px 25px 25px rgba(203, 178, 106, 0.25);
-  -moz-box-shadow: 0px 0px 25px 25px rgba(203, 178, 106, 0.25);
-  -webkit-box-shadow: 0px 0px 25px 25px rgba(203, 178, 106, 0.25);
   border-radius: 20px;
 }
 
@@ -28,6 +25,9 @@
   font-size: larger;
 }
 
+.row {
+  color: white;
+}
 @media (max-width: 991px) {
   .AboutMe {
     margin-top: 50px;
