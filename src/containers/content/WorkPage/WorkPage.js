@@ -29,7 +29,9 @@ const WorkPage = () => {
                       </Card.Link>{" "}
                       - Halifax, Nova Scotia
                     </Card.Subtitle>
-                    <Card.Subtitle className={Style.CardSubtitle}>August 2018 - Present</Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>
+                      August 2018 - Present
+                    </Card.Subtitle>
                     <Accordion.Toggle as={Link} eventKey="0">
                       Details
                     </Accordion.Toggle>
@@ -80,7 +82,9 @@ const WorkPage = () => {
                       </Card.Link>{" "}
                       - Halifax, Nova Scotia
                     </Card.Subtitle>
-                    <Card.Subtitle className={Style.CardSubtitle}>Nov 2019 - Jan 2020</Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>
+                      Nov 2019 - Jan 2020
+                    </Card.Subtitle>
                     <Accordion.Toggle as={Link} eventKey="1">
                       Details
                     </Accordion.Toggle>
@@ -114,7 +118,9 @@ const WorkPage = () => {
                       </Card.Link>{" "}
                       - Halifax, Nova Scotia
                     </Card.Subtitle>
-                    <Card.Subtitle className={Style.CardSubtitle}>Mar 2019 - Jul 2020</Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>
+                      Mar 2019 - Jul 2020
+                    </Card.Subtitle>
                     <Accordion.Toggle as={Link} eventKey="2">
                       Details
                     </Accordion.Toggle>
@@ -164,7 +170,9 @@ const WorkPage = () => {
                       </Card.Link>{" "}
                       - Bedford, Nova Scotia
                     </Card.Subtitle>
-                    <Card.Subtitle className={Style.CardSubtitle}>Jun 2018 - Mar 2019</Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>
+                      Jun 2018 - Mar 2019
+                    </Card.Subtitle>
                     <Accordion.Toggle as={Link} eventKey="3">
                       Details
                     </Accordion.Toggle>
@@ -211,7 +219,9 @@ const WorkPage = () => {
                       </Card.Link>{" "}
                       - Halifax, Nova Scotia
                     </Card.Subtitle>
-                    <Card.Subtitle className={Style.CardSubtitle}>May 2017 - Aug 2017</Card.Subtitle>
+                    <Card.Subtitle className={Style.CardSubtitle}>
+                      May 2017 - Aug 2017
+                    </Card.Subtitle>
                     <Accordion.Toggle as={Link} eventKey="4">
                       Details
                     </Accordion.Toggle>

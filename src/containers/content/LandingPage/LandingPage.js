@@ -47,7 +47,7 @@ const LandingPage = () => {
           <Col className={Style.Skills} md={4}>
             <FontAwesomeIcon
               icon={faDatabase}
-              size="6x"
+              size="3x"
               className={Style.Skill}
             />
             <h3>Database</h3>
@@ -56,14 +56,14 @@ const LandingPage = () => {
           <Col className={Style.Skills} md={4}>
             <FontAwesomeIcon
               icon={faGoogle}
-              size="6x"
+              size="3x"
               className={Style.Skill}
             />
             <h3>Google Analytics</h3>
             <h5>Turn Data into Gold</h5>
           </Col>
           <Col className={Style.Skills} md={4}>
-            <FontAwesomeIcon icon={faCode} size="6x" className={Style.Skill} />
+            <FontAwesomeIcon icon={faCode} size="3x" className={Style.Skill} />
             <h3>Front End Goodness</h3>
             <h5>Making it pop</h5>
           </Col>
@@ -106,6 +106,13 @@ const LandingPage = () => {
           </Col>
           <Col md={6} className={Style.Picture}>
             <img src={voltaCohort} alt="winning volta cohort" />
+          </Col>
+        </Row>
+        <Row className={Style.skillHighlight}>
+          <Col>
+            <h3>
+              Learn more about me <a href="/contact">here</a>.
+            </h3>
           </Col>
         </Row>
       </Container>
