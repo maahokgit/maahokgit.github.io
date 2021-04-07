@@ -8,9 +8,9 @@ import { Slide } from "@material-ui/core";
 
 const AboutPage = () => {
   useEffect(() => {
-    console.log("[useEffect] - /about");
-    document.title = "About Me - Edward Ma";
+    document.title = "About Me | Edward Ma";
   }, []);
+
   return (
     <Container className={Style.Container}>
       <Row className={Style.row}>

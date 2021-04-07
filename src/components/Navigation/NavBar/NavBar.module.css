@@ -27,7 +27,6 @@
   }
 
   .NavBar {
-    /* position: static; */
-    /* padding: 20px; */
+    position: static;
   }
 }
