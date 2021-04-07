@@ -110,7 +110,7 @@ const LandingPage = () => {
         <Row className={Style.skillHighlight}>
           <Col className={Style.Skills}>
             <h3>
-              Learn more about me <a href="/contact">here</a>.
+              Learn more about me <a href="/about">here</a>.
             </h3>
           </Col>
         </Row>

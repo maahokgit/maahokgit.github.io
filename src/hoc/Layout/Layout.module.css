@@ -5,8 +5,8 @@
     margin: 150px auto 0 auto;
 }
 
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
     .Layout main {
         margin-top: 70px;
     }
-} */
+}
