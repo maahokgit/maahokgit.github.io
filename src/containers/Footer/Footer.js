@@ -9,7 +9,7 @@ const footer = () => {
     <footer className={Style.Footer}>
       <p>
         <FontAwesomeIcon icon={faCopyright} color="white" /> Copyright{" "}
-        {new Date().getFullYear()} Edward Ma
+        {new Date().getFullYear()} Edward Ma 
       </p>
     </footer>
   );
