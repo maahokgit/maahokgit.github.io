@@ -8,7 +8,7 @@ import { Slide } from "@material-ui/core";
 
 const AboutPage = () => {
   useEffect(() => {
-    document.title = "About Me | Edward Ma";
+    document.title = "About Me | Edward Ma, MStJ";
   }, []);
 
   return (

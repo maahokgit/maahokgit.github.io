@@ -16,7 +16,7 @@ import { Zoom } from "@material-ui/core";
 
 const LandingPage = () => {
   useEffect(() => {
-    document.title = "Home | Edward Ma";
+    document.title = "Home | Edward Ma, MStJ";
   }, []);
 
   return (

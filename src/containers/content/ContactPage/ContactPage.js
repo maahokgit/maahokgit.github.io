@@ -6,7 +6,7 @@ import Style from "./ContactPage.module.css";
 
 const ContactPage = () => {
   useEffect(() => {
-    document.title = "Let's Chat | Edward Ma";
+    document.title = "Let's Chat | Edward Ma, MStJ";
   }, []);
 
   const [validateEmail, setValidateEmail] = useState(false);

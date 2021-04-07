@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const WorkPage = () => {
   useEffect(() => {
-    document.title = "My Experience | Edward Ma";
+    document.title = "My Experience | Edward Ma, MStJ";
   }, []);
 
   return (
