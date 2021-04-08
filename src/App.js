@@ -4,7 +4,7 @@ import { Redirect, Route, Switch, withRouter } from "react-router";
 import Layout from "./hoc/Layout/Layout";
 import Spinner from "./components/UI/Spinner/Spinner";
 import LandingPage from "./containers/content/LandingPage/LandingPage";
-// import ContactPage from "./containers/content/ContactPage/ContactPage";
+
 const AboutPage = React.lazy(() => {
   return import("./containers/content/AboutPage/AboutPage");
 });
@@ -18,7 +18,6 @@ const WorkPage = React.lazy(() => {
 });
 
 const App = () =>  (
-    <>
       <Layout>
         <Suspense fallback={<Spinner />}>
           <Switch>
@@ -36,7 +35,6 @@ const App = () =>  (
           </Switch>
         </Suspense>
       </Layout>
-    </>
   );
 
 
