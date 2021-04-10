@@ -6,11 +6,6 @@ body {
   background-color: black;
 }
 
-#root {
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
 body::-webkit-scrollbar {
   display: none;
 }
