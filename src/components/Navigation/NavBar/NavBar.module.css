@@ -1,15 +1,21 @@
 .NavBar {
   height: 70px;
   padding: 40px 20px;
-  color: #cbb26a;
+  /* color: #cbb26a; */
   display: flex;
   align-items: center;
-  max-width: 1400px;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 999;
   background-color: black;
+}
+
+header>div {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
 }
 
 .NavBar nav {

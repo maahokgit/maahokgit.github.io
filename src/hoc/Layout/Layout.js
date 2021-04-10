@@ -23,6 +23,7 @@ const Layout = (props) => {
         <NavBar sideBarToggleClicked={SideBarToggleHandler} />
         <SideBar open={showSideBar} closed={SideBarClosedHandler} />
         <main>{props.children}</main>
+        <section />
       </div>
       <Footer />
     </>
