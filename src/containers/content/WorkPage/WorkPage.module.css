@@ -1,0 +1,69 @@
+.Container {
+  max-width: 1400px;
+  padding: 0;
+}
+
+.Container h3 {
+  text-align: center;
+  color: white;
+}
+.Row {
+  color: black;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.Row h1 {
+  color: white;
+}
+
+.CardSubtitle {
+  padding: 5px 0;
+}
+
+.Card {
+  background-color: #e5d9b6;
+  border: 5px solid #be9e44;
+  width: 90%;
+}
+
+.CardText li {
+  align-items: unset;
+  justify-content: unset;
+}
+
+.CardText ul {
+  padding-left: 0;
+}
+.CardText li::before {
+  content: "\2022";
+  padding-right: 10px;
+}
+
+.Card a {
+  color: #007bff;
+}
+.collg8 {
+  padding-right: 0;
+}
+
+.Accordion {
+  width: 100%;
+}
+
+.Accordion>.card{
+  margin: auto;
+}
+@media (max-width: 991px) {
+  .collg4 h1 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

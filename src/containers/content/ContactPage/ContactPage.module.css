@@ -1,0 +1,114 @@
+.ContactForm {
+  display: flex;
+  flex-flow: column;
+  padding-right: 10px;
+}
+
+.formContainer h3 {
+  text-align: center;
+  color:#cbb26a;
+}
+
+.ContactForm span,
+.ContactForm label {
+  text-align: left;
+}
+
+.ContactForm span {
+  color: red;
+}
+.ContactForm label {
+  font-size: xx-large;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.ContactForm input {
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"] {
+  padding-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font-size: x-large;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #cbb26a;
+  color: white;
+  font-weight: normal;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+button {
+  background: #cbb26a;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: x-large;
+  width: fit-content;
+  margin-top: 15px;
+}
+
+button:hover:not([disabled]) {
+  transform: scale(0.8);
+}
+
+button:disabled {
+  background: grey;
+  cursor: not-allowed;
+}
+
+.formContainer {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  padding: 50px;
+  align-items: center;
+}
+
+.formContainer img {
+  padding-left: 10px;
+  border-radius: 30px;
+}
+
+@media (max-width: 800px) {
+  .ContactForm span,
+  .ContactForm label,
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    text-align: center;
+  }
+
+  button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .formContainer img {
+    display: none;
+  }
+
+  .ContactPage {
+    text-align: center;
+  }
+
+  .ContactForm {
+    padding: 0;
+  }
+}

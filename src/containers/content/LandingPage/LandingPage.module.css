@@ -1,0 +1,71 @@
+.fbavie {
+  border-radius: 100%;
+  width: 100%;
+  max-width: 400px;
+}
+
+.Picture,
+.skillHighlight,
+.Skills, .BusinessSkills, .noleftpadding {
+  padding-left: 0;
+}
+
+.Picture img {
+  width: 100%;
+}
+
+.textCenter {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.skillHighlight {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.Skill {
+  margin-bottom: 0.25em;
+}
+
+.BusinessSkills {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.BusinessSkill {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+
+@media (max-width: 991px) {
+  .Skills {
+    text-align: center;
+  }
+
+  .skillHighlight h3,
+  .skillHighlight h4 {
+    text-align: center;
+  }
+  .textCenter {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .Picture {
+    text-align: center;
+  }
+
+  .Picture,
+  .Skills {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 767px){
+    .Skills, .BusinessSkills{
+        margin-bottom: 25px;
+    }
+}

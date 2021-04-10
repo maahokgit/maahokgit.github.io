@@ -1,0 +1,22 @@
+.Home {
+  text-transform: uppercase;
+  padding-top: 5px;
+  background: -webkit-linear-gradient(#e5d936, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Home a {
+  color: #e5d936;
+  text-decoration: none;
+  font-family: "Josefin Sans";
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+@media (max-width: 801px) {
+  .Home {
+    text-align: center;
+  }
+}
