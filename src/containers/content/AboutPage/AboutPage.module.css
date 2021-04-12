@@ -33,9 +33,9 @@
   padding-left: 0;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 959px) {
   .AboutMe {
-    margin-top: 50px;
+    text-align: center;
   }
   .Picture {
     text-align: center;

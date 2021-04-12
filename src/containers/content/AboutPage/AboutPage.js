@@ -12,9 +12,9 @@ const AboutPage = () => {
   }, []);
 
   return (
-    <Grid container className={Style.row}>
+    <Grid container spacing={3} className={Style.row}>
       <Slide direction="down" in={true} mountOnEnter unmountOnExit>
-        <Grid lg={4} className={Style.Picture}>
+        <Grid item md={4} xs={12} className={Style.Picture}>
           <img
             src={selfie}
             alt="i need a better pic"
@@ -23,7 +23,7 @@ const AboutPage = () => {
         </Grid>
       </Slide>
       <Slide direction="up" in={true} mountOnEnter unmountOnExit>
-        <Grid lg={8} className={Style.AboutMe}>
+        <Grid item md={8} xs={12} className={Style.AboutMe}>
           <h2>
             I'm Edward, a web and database developer based out of beautiful Nova
             Scotia, Canada, and the Co-Founder & CTO of{" "}
