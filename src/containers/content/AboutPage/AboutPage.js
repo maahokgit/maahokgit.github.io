@@ -54,27 +54,35 @@ const AboutPage = () => {
             <Grid container xs={12} spacing={5} style={{ marginTop: 20 }}>
               <Grid item xs={3} className={Style.iconCenter}>
                 <FontAwesomeIcon icon={faHtml5} color="white" size="3x" />
+                <p>HTML5</p>
               </Grid>
               <Grid item xs={3} className={Style.iconCenter}>
                 <FontAwesomeIcon icon={faLess} color="white" size="3x" />
+                <p>LESS/CSS3</p>
               </Grid>
               <Grid item xs={3} className={Style.iconCenter}>
                 <FontAwesomeIcon icon={faJsSquare} color="white" size="3x" />
+                <p>JavaScrip/ES7</p>
               </Grid>
               <Grid item xs={3} className={Style.iconCenter}>
                 <FontAwesomeIcon icon={faReact} color="white" size="3x" />
+                <p>ReactJS</p>
               </Grid>
               <Grid item xs={3} className={Style.iconCenter}>
                 <FontAwesomeIcon icon={faDatabase} color="white" size="3x" />
+                <p>SQL</p>
               </Grid>
               <Grid item xs={3} className={Style.iconCenter}>
                 <FontAwesomeIcon icon={faUbuntu} color="white" size="3x" />
+                <p>Linux/Ubuntu</p>
               </Grid>
               <Grid item xs={3} className={Style.iconCenter}>
                 <FontAwesomeIcon icon={faGitSquare} color="white" size="3x" />
+                <p>Git</p>
               </Grid>
               <Grid item xs={3} className={Style.iconCenter}>
                 <FontAwesomeIcon icon={faSearchengin} color="white" size="3x" />
+                <p>SEO</p>
               </Grid>
             </Grid>
           </Grid>
