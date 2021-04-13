@@ -10,7 +10,7 @@
 .Row {
   color: black;
   margin-bottom: 25px;
-  justify-content: center;
+  padding-right: 5px;
 }
 
 .Row h1 {
@@ -22,11 +22,18 @@
 }
 
 .Card {
-  background-color: #e5d9b6;
+  background-color: #e5d9b6 !important;
   border: 5px solid #be9e44;
-  width: 90%;
+  width: 100%;
 }
 
+.AccordionSummary {
+  margin: 20px 0 0 0;
+}
+
+.CardText{
+  padding: 0 20px !important;
+}
 .CardText li {
   align-items: unset;
   justify-content: unset;
@@ -54,7 +61,7 @@
 .Accordion>.card{
   margin: auto;
 }
-@media (max-width: 991px) {
+@media (max-width: 959px) {
   .collg4 h1 {
     text-align: center;
     margin-bottom: 25px;
@@ -63,7 +70,6 @@
 
 @media (max-width: 800px) {
   .Row {
-    margin-right: 0;
-    margin-left: 0;
+    padding-right: 0;
   }
 }

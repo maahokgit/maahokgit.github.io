@@ -19,6 +19,9 @@ a {
   color: #cbb26a;
   text-decoration: none;
 }
+.MuiAccordionSummary-content.Mui-expanded {
+  margin: 12px 0 !important;
+}
 
 a:hover,
 a:focus,
