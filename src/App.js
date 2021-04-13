@@ -30,7 +30,7 @@ const App = () =>  (
               path="/contact"
               render={(props) => <ContactPage {...props} />}
             />
-            <Route exact path="/" component={LandingPage} />
+            <Route exact path="/" component={AboutPage} />
             <Redirect to="/" />
           </Switch>
         </Suspense>

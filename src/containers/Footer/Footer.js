@@ -7,10 +7,14 @@ import { Grid } from "@material-ui/core";
 const footer = () => {
   return (
     <footer className={Style.Footer}>
-      <Grid container spacing={5}>
-        <Grid item md={10} xs={12}>
+      <Grid container>
+        <Grid item>
           <p>
-            Built with{" "}
+            Edward Ma <FontAwesomeIcon icon={faCopyright} color="white" />{" "}
+            Copyright {new Date().getFullYear()}
+          </p>
+          <p>
+            This site is built with{" "}
             <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
               React
             </a>
@@ -55,13 +59,6 @@ const footer = () => {
               Google Firebase
             </a>
             .
-          </p>
-        </Grid>
-        <Grid item md={2} xs={12}>
-          <p>
-            Made by Edward Ma <br />
-            <FontAwesomeIcon icon={faCopyright} color="white" /> Copyright{" "}
-            {new Date().getFullYear()}
           </p>
         </Grid>
       </Grid>

@@ -9,18 +9,27 @@
   border-radius: 20px;
 }
 
+.iconCenter {
+  text-align: center;
+}
+
 .AboutMe {
+  flex-flow: column;
+  margin: auto;
+}
+
+.AboutMe > h1,
+.AboutMe > h2, h3 {
+  font-family: "Josefin Sans";
+}
+
+.MoreAboutMe {
   display: flex;
   justify-content: center;
   flex-flow: column;
 }
 
-.AboutMe > h1,
-.AboutMe > h2 {
-  font-family: "Josefin Sans";
-}
-
-.AboutMe > p {
+.MoreAboutMe > p {
   font-family: "Mulish";
   font-size: larger;
 }
@@ -33,8 +42,13 @@
   padding-left: 0;
 }
 
+.MoreAboutMePic {
+  max-width: 680px;
+  width: 100%;
+}
+
 @media (max-width: 959px) {
-  .AboutMe {
+  .AboutMe, .MoreAboutMe {
     text-align: center;
   }
   .Picture {
