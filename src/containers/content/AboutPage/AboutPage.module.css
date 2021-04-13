@@ -1,6 +1,6 @@
 .Container {
-  max-width: 1400px;
-  margin: auto;
+  margin-top: 150px;
+  padding:0 20px;
 }
 
 .selfie {
@@ -53,5 +53,11 @@
   }
   .Picture {
     text-align: center;
+  }
+  .Container{
+    padding: unset;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

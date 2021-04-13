@@ -79,7 +79,7 @@ const AboutPage = () => {
             </Grid>
           </Grid>
         </Slide>
-        <Grid container spacing={5} style={{ marginTop: 150, padding: '0 20px' }}>
+        <Grid container spacing={5} className={Style.Container}>
           <Grid item md={6} xs={12} className={Style.MoreAboutMe}>
             <h3>I am the Co-Founder & CTO of <a href="https://Bursity.org" target="_blank" rel="noreferrer">
               Bursity.org
@@ -95,7 +95,7 @@ const AboutPage = () => {
             <img src={voltaCohort} alt="winning volta cohort" className={Style.MoreAboutMePic} />
           </Grid>
         </Grid>
-        <Grid container spacing={5} style={{ marginTop: 150, padding: '0 20px' }}>
+        <Grid container spacing={5} className={Style.Container}>
           <Grid item md={6} xs={12} className={Style.Picture}>
             <img src={MStJ} alt='acceptance into the order of st. john' className={Style.MoreAboutMePic} />
           </Grid>
