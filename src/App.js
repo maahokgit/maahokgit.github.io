@@ -3,7 +3,6 @@ import { Redirect, Route, Switch, withRouter } from "react-router";
 
 import Layout from "./hoc/Layout/Layout";
 import Spinner from "./components/UI/Spinner/Spinner";
-// import LandingPage from "./containers/content/LandingPage/LandingPage";
 
 const AboutPage = React.lazy(() => {
   return import("./containers/content/AboutPage/AboutPage");
@@ -25,7 +24,6 @@ const App = () =>  (
               path="/experience"
               render={(props) => <WorkPage {...props} />}
             />
-            {/* <Route path="/about" render={(props) => <AboutPage {...props} />} /> */}
             <Route
               path="/contact"
               render={(props) => <ContactPage {...props} />}
