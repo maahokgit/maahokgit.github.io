@@ -8,7 +8,7 @@ import Style from "./NavigationItems.module.css";
 const navigationItems = () => (
   <ul className={Style.NavigationItems}>
     <NavigationItem link="/experience">Experience</NavigationItem>
-    <NavigationItem link="/about">About</NavigationItem>
+    {/* <NavigationItem link="/about">About</NavigationItem> */}
     <NavigationItem link="/contact">Contact</NavigationItem>
     <ul className={Style.FontAwesomeIcon}>
       <li>

@@ -1,6 +1,6 @@
 .Container {
   margin-top: 150px !important;
-  padding:0 20px;
+  padding: 0 20px;
 }
 
 .selfie {
@@ -9,17 +9,23 @@
   border-radius: 20px;
 }
 
+.skillIcon {
+  margin-top: 20px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
 .iconCenter {
   text-align: center;
 }
 
 .AboutMe {
   flex-flow: column;
-  margin: auto;
+  margin: auto !important;
 }
 
 .AboutMe > h1,
-.AboutMe > h2, h3 {
+.AboutMe > h2,
+h3 {
   font-family: "Josefin Sans";
 }
 
@@ -29,7 +35,7 @@
   flex-flow: column;
 }
 
-.MoreAboutMe > p {
+.AboutMe p, .MoreAboutMe > p {
   font-family: "Mulish";
   font-size: larger;
 }
@@ -48,16 +54,20 @@
 }
 
 @media (max-width: 959px) {
-  .AboutMe, .MoreAboutMe {
+  .AboutMe,
+  .MoreAboutMe {
     text-align: center;
   }
   .Picture {
     text-align: center;
   }
-  .Container{
+  .Container {
     padding: unset;
     width: 100% !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
+  /* .selfie {
+    max-width: 400px;
+  } */
 }

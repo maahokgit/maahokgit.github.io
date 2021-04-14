@@ -2,13 +2,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/free-solid-svg-icons";
 
 import Style from "./Footer.module.css";
-import { Grid } from "@material-ui/core";
 
 const footer = () => {
   return (
     <footer className={Style.Footer}>
-      <Grid container>
-        <Grid item>
           <p>
             Edward Ma <FontAwesomeIcon icon={faCopyright} color="white" />{" "}
             Copyright {new Date().getFullYear()}
@@ -18,13 +15,13 @@ const footer = () => {
             <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
               React
             </a>
-            ,{" "}
+            , and{" "}
             <a href="https://material-ui.com/" target="_blank" rel="noreferrer">
               Material UI
             </a>
-            , and{" "}
+            , using{" "}
             <a href="https://fontawesome.com/" target="_blank" rel="noreferrer">
-              Font Awesome
+              Font Awesome Icons
             </a>
             , written using{" "}
             <a
@@ -49,8 +46,7 @@ const footer = () => {
               rel="noreferrer"
             >
               GitKraken
-            </a>
-            . Hosting and deployment by{" "}
+            </a> for GUI. Hosting and deployment by{" "}
             <a
               href="https://firebase.google.com/"
               target="_blank"
@@ -60,8 +56,6 @@ const footer = () => {
             </a>
             .
           </p>
-        </Grid>
-      </Grid>
     </footer>
   );
 };
