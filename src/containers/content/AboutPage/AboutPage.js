@@ -17,9 +17,9 @@ import ContactMe from '../../ContactMe/ContactMe';
 
 import Style from "./AboutPage.module.css";
 
-import selfie from "../../../assets/img/irisphoto.png";
-import voltaCohort from "../../../assets/img/Volta-Cohort-.jpg";
-import MStJ from "../../../assets/img/mstj.jpeg";
+import selfie from "../../../assets/img/irisphoto.webp";
+import voltaCohort from "../../../assets/img/Volta-Cohort-.webp";
+import MStJ from "../../../assets/img/mstj.webp";
 
 const AboutPage = () => {
   useEffect(() => {
