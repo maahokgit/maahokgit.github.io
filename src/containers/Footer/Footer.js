@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/free-solid-svg-icons";
+import { Footer } from '../../contentData/ContentData';
 
 import Style from "./Footer.module.css";
 
@@ -9,7 +10,7 @@ const footer = () => (
       Edward Ma <FontAwesomeIcon icon={faCopyright} color="white" /> Copyright{" "}
       {new Date().getFullYear()}
     </p>
-    <p>
+    {/* <p>
       This site is built with{" "}
       <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
         React
@@ -39,7 +40,8 @@ const footer = () => (
         Google Firebase
       </a>
       .
-    </p>
+    </p> */}
+    <Footer />
   </footer>
 );
 

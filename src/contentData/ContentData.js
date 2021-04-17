@@ -41,7 +41,15 @@ const query = `
       }
     }
   }
-}`;
+  footerCollection{
+    items{
+      footer{
+        json
+      }
+    }
+  }
+}
+`;
 
 const contentSpaceID = process.env.REACT_APP_CONTENTFUL_SPACE;
 const contentToken = process.env.REACT_APP_CONTENTFUL_DELIVERY_API;
@@ -113,6 +121,17 @@ export const OtherDescription = () => {
     );
   }, []);
   return <>{documentToReactComponents(otherDescription, options)}</>;
+};
+
+export const Footer = () => {
+  const [footer, setFooter] = useState(null);
+  useEffect(() => {
+    getData().then((value) =>
+      setFooter(value.footerCollection.items[0].footer.json)
+    );
+  }, []);
+  
+  return <>{documentToReactComponents(footer, options)}</>;
 };
 
 export const JobExperience = () => {
