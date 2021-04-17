@@ -1,4 +1,5 @@
 import { Grid } from "@material-ui/core";
+import { NavLink } from "react-router-dom";
 
 const ContactMe = () => (
   <>
@@ -8,7 +9,7 @@ const ContactMe = () => (
           I’m always keeping an eye out for opportunities and collaborations!
         </h4>
         <h4>
-          <a href="/contact">Drop me a line</a> if you’d like to chat.
+          <NavLink exact to="/contact">Drop me a line</NavLink> if you’d like to chat.
         </h4>
       </Grid>
     </Grid>

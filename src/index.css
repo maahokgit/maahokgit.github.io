@@ -4,15 +4,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 body::-webkit-scrollbar {
   display: none;
-}
-
-body {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
 }
 
 a {
@@ -30,11 +30,79 @@ a:active {
   text-decoration: none;
 }
 
-p {
-  font-family: "Mulish";
-}
-
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Mulish";
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+p:empty{
+  display: none;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol ol, ol ul, ul ol, ul ul {
+  margin-bottom: 0;
+}
+
+.MuiTypography-subtitle1>p {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  margin-bottom: 0;
+}  
