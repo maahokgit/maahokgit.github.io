@@ -1,10 +1,15 @@
 .Layout main {
     color: white;
-    padding: 20px;
+    padding: 20px 0;
     max-width: 1400px;
     margin: 150px auto 0 auto;
 }
 
+@media (max-width: 1400px) {
+    .Layout main {
+        padding: 20px;
+    }
+}
 @media (max-width: 800px) {
     .Layout main {
         margin-top: 70px;

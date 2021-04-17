@@ -1,7 +1,7 @@
 import emailjs from "emailjs-com";
 import { useEffect, useState } from "react";
 import Slide from "@material-ui/core/Slide";
-import funko_avi from "../../../assets/img/funko_avi2.png";
+import funko_avi from "../../../assets/img/fbavie.jpg";
 import Style from "./ContactPage.module.css";
 
 const ContactPage = () => {
@@ -79,7 +79,7 @@ const ContactPage = () => {
           </form>
         </Slide>
         <Slide direction="left" in={true} mountOnEnter unmountOnExit>
-          <img src={funko_avi} alt="funko avi" />
+          <img src={funko_avi} alt="funko avi" style={{maxWidth:410}}/>
         </Slide>
       </div>
     </div>
