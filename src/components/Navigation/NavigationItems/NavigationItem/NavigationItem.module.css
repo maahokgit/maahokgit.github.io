@@ -10,16 +10,15 @@ li.Items a {
   font-family: "Mulish";
   font-weight: 800;
   font-size: 20px;
-  width: 100px;
+  width: 130px;
   color: #cbb26a;
   text-decoration: none;
   text-align: center;
 }
 
-li.Items a:hover,
-li.Items a.active,
-li.Items a:active {
+li.Items a.active{
   color: white;
+  border-bottom: 1px solid #cbb26a;
 }
 
 @media (max-width: 801px) {

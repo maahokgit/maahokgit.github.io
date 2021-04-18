@@ -3,6 +3,7 @@
   display: flex;
   padding: 0;
 }
+
 .NavigationItems {
   margin: 0;
   list-style: none;
@@ -11,10 +12,11 @@
   flex-flow: row;
 }
 
-/* .NavigationItems > li {
-  display: inline-block;
-  width: 100%;
-} */
+ a.Icon:hover,
+ a.Icon:focus,
+ a.Icon:active {
+  border-bottom: none;
+}
 
 .FontAwesomeIcon li svg:hover {
   color: #cbb26a;

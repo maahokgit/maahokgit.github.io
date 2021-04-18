@@ -16,12 +16,13 @@ const navigationItems = () => (
           href="https://www.linkedin.com/in/maahokgit"
           target="_blank"
           rel="noreferrer"
+          className={Style.Icon}
         >
           <FontAwesomeIcon icon={faLinkedinIn} size="lg" color="white" />
         </a>
       </li>
       <li>
-        <a href="https://github.com/maahokgit" target="_blank" rel="noreferrer">
+        <a href="https://github.com/maahokgit" target="_blank" rel="noreferrer" className={Style.Icon}>
           <FontAwesomeIcon icon={faGithub} size="lg" color="white" />
         </a>
       </li>

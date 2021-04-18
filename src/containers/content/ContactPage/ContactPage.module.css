@@ -6,7 +6,7 @@
 
 .formContainer h3 {
   text-align: center;
-  color:#cbb26a;
+  color: #cbb26a;
 }
 
 .ContactForm span,
@@ -15,30 +15,22 @@
 }
 
 .ContactForm span {
-  color: red;
+  color: black;
 }
 .ContactForm label {
-  font-size: xx-large;
   padding: 10px 0;
   font-weight: bold;
+  color: white;
 }
 
-.ContactForm input {
-  margin-bottom: 10px;
-}
-input[type="text"],
-input[type="email"] {
-  padding-bottom: 10px;
-}
 
 input[type="text"],
 input[type="email"],
 textarea {
-  font-size: x-large;
+  font-size: x-large !important;
   background: none;
   border: none;
-  border-bottom: 1px solid #cbb26a;
-  color: white;
+  color: white !important;
   font-weight: normal;
 }
 
@@ -46,22 +38,16 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
   outline: none;
-  border-bottom: 1px solid white;
 }
 
-button {
-  background: #cbb26a;
-  border-radius: 12px;
-  border: none;
-  color: white;
-  padding: 10px 50px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  font-size: x-large;
+textarea {
+  padding: 6px 0 7px !important;
+}
+
+.button {
+  background-color: #cbb26a !important;
   width: fit-content;
-  margin-top: 15px;
+  margin-top: 15px !important;
 }
 
 button:hover:not([disabled]) {
@@ -69,39 +55,28 @@ button:hover:not([disabled]) {
 }
 
 button:disabled {
-  background: grey;
-  cursor: not-allowed;
+  background-color: grey !important;
 }
 
 .formContainer {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  padding: 50px;
   align-items: center;
 }
 
 .formContainer img {
   padding-left: 10px;
-  border-radius: 30px;
+  border-radius: 100%;
+  max-width: 480px;
+  width: 100%;
 }
 
-@media (max-width: 800px) {
-  .ContactForm span,
-  .ContactForm label,
-  input[type="text"],
-  input[type="email"],
-  textarea {
+@media (max-width: 959px) {
+  .formContainer {
     text-align: center;
   }
 
   button {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .formContainer img {
-    display: none;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
   .ContactPage {
