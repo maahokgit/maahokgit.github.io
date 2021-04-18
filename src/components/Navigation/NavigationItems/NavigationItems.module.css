@@ -3,12 +3,19 @@
   display: flex;
   padding: 0;
 }
+
 .NavigationItems {
   margin: 0;
   list-style: none;
   align-items: center;
   height: 100%;
   flex-flow: row;
+}
+
+ a.Icon:hover,
+ a.Icon:focus,
+ a.Icon:active {
+  border-bottom: none;
 }
 
 .FontAwesomeIcon li svg:hover {
