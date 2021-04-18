@@ -11,11 +11,6 @@
   flex-flow: row;
 }
 
-/* .NavigationItems > li {
-  display: inline-block;
-  width: 100%;
-} */
-
 .FontAwesomeIcon li svg:hover {
   color: #cbb26a;
 }

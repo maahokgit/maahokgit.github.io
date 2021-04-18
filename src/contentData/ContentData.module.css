@@ -17,9 +17,9 @@
 }
 
 .CardText p {
-    font-family: "Josefin Sans", "Mulish", sans-serif;
-    font-size: 16px;
-    margin-bottom: 0;
+  font-family: "Josefin Sans", "Mulish", sans-serif;
+  font-size: 16px;
+  margin-bottom: 0;
 }
 
 .CardText ul {
@@ -49,7 +49,7 @@
 }
 
 @media (max-width: 800px) {
-    .Row {
-      padding-right: 0;
-    }
+  .Row {
+    padding-right: 0;
   }
+}

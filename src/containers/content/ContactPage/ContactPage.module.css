@@ -6,7 +6,7 @@
 
 .formContainer h3 {
   text-align: center;
-  color:#cbb26a;
+  color: #cbb26a;
 }
 
 .ContactForm span,
@@ -18,19 +18,11 @@
   color: black;
 }
 .ContactForm label {
-  /* font-size: xx-large; */
   padding: 10px 0;
   font-weight: bold;
   color: white;
 }
 
-/* .ContactForm input {
-  margin-bottom: 10px;
-} */
-/* input[type="text"],
-input[type="email"] {
-  padding-bottom: 10px;
-} */
 
 input[type="text"],
 input[type="email"],
@@ -38,7 +30,6 @@ textarea {
   font-size: x-large !important;
   background: none;
   border: none;
-  /* border-bottom: 1px solid #cbb26a; */
   color: white !important;
   font-weight: normal;
 }
@@ -54,7 +45,7 @@ textarea {
 }
 
 .button {
- background-color: #cbb26a !important;
+  background-color: #cbb26a !important;
   width: fit-content;
   margin-top: 15px !important;
 }
@@ -68,34 +59,24 @@ button:disabled {
 }
 
 .formContainer {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  padding: 50px;
   align-items: center;
 }
 
 .formContainer img {
   padding-left: 10px;
-  border-radius: 30px;
+  border-radius: 100%;
+  max-width: 480px;
+  width: 100%;
 }
 
 @media (max-width: 959px) {
-  .ContactForm span,
-  .ContactForm label,
-  input[type="text"],
-  input[type="email"],
-  textarea {
+  .formContainer {
     text-align: center;
   }
 
   button {
     margin-left: auto !important;
     margin-right: auto !important;
-  }
-
-  .formContainer img {
-    display: none;
   }
 
   .ContactPage {

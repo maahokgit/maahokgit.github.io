@@ -16,6 +16,8 @@ body::-webkit-scrollbar {
 }
 
 a {
+  /* position:relative;
+  display:inline-block; */
   color: #cbb26a;
   text-decoration: none;
 }
@@ -26,8 +28,9 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: white;
-  text-decoration: none;
+  color: white !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid #cbb26a;
 }
 
 .container {
@@ -89,24 +92,29 @@ p {
   margin-bottom: 1rem;
 }
 
-p:empty{
+p:empty {
   display: none;
 }
 
-dl, ol, ul {
+dl,
+ol,
+ul {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-ol ol, ol ul, ul ol, ul ul {
+ol ol,
+ol ul,
+ul ol,
+ul ul {
   margin-bottom: 0;
 }
 
-.MuiTypography-subtitle1>p {
+.MuiTypography-subtitle1 > p {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
   margin-bottom: 0;
-}  
-.MuiInput-underline:before{
+}
+.MuiInput-underline:before {
   border-bottom: 2px solid #fff !important;
 }
 .MuiInput-underline:after {

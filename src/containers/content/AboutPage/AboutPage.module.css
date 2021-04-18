@@ -58,12 +58,6 @@ figure {
   width: 100%;
 }
 
-@media (max-width: 1400px) {
-  .Container {
-    /* padding: 0px; */
-    /* max-width: 1400px; */
-  }
-}
 @media (max-width: 959px) {
   .AboutMe,
   .MoreAboutMe {
@@ -80,7 +74,4 @@ figure {
     margin-left: auto !important;
     margin-right: auto !important;
   }
-  /* .selfie {
-    max-width: 400px;
-  } */
 }

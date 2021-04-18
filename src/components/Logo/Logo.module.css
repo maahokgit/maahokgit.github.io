@@ -15,6 +15,13 @@
   font-size: xx-large;
 }
 
+.Home a:hover,
+.Home a:focus,
+.Home a:active,
+.Home a.active {
+  border-bottom: none;
+}
+
 @media (max-width: 801px) {
   .Home {
     text-align: center;
