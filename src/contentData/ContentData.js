@@ -32,9 +32,7 @@ const query = `
   workExperienceCollection {
     items{
       jobTitle
-      employer{
-        json
-      }
+      employer
       startEndDate
       description{
         json
